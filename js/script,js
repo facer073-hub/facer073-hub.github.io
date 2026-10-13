@@ -1,0 +1,14 @@
+const select = document.querySelector(".showingupmenu");
+const listofitems = {
+    sadonion: { title: "ГРУСТНЫЙ ЛУК", description: ""},
+    deathtouch: { title: "ПРИКОСНОВЕНИЕ СМЕРТИ", description: ""},
+    chaos: { title: "ХАОС", description: ""},
+    D6: { title: "Д6", description: ""},
+    "": { title: "", description: ""}
+};
+function showdesctiption(item) {
+
+}
+select.addEventListener("change", function() {
+    showdesctiption(this.value)
+})
