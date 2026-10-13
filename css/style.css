@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    font-size: clamp(8px,2vw,30px);
+}
+ul {
+    list-style-type: circle;
+}
+body {
+    position: relative;
+}
+
+
+.showingupmenu {
+    position: fixed;
+     left: 100px;
+     top: 100px;
+}
+
+.description {
+     position: fixed;
+     color: white;
+     right: 100px;
+     top: 100px;
+}
